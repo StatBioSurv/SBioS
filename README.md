@@ -1,1 +1,1 @@
-# SBioS
+This document serves as a concise user guide for the R analysis program introduced in the study “Using Survival Analysis to Develop Models for Estimating Size-at-Detection of Invasive Species under Surveillance.” We present the functional R program named “select_function”, which generates various mathematical functions—including linear, quadratic, exponential, and logistic—based on user inputs. The program then calculates the integral of the chosen function to verify its validity (ensuring it is close to 1) and, if valid, plots the function.
