@@ -140,3 +140,4 @@ plot_function("quadratic", list(n = 200, p = 0.1))
 plot_function("exponential", list(n = 400, p = 0.001, x0 = 0.001, r = 0.099))
 plot_function("logistic", list(n = 10, p = 0.001, x0 = 0.001, M = 50, r =0.05))
 
+
