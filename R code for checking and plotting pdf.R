@@ -1,4 +1,11 @@
-
+#-----------------------------------------------------------
+# information about the parameters
+# n: density of traps
+# p: probability of detection per individual and per trap
+# x0: initial population size at the time of incursion
+# M: carrying capacity
+# r: rate of population growth
+#------------------------------------------------------------
 select_function <- function(type = c("linear","quadratic", "exponential", "logistic"), 
                             params = list(n = n, p = p, x0 = x0, M = M, r = r)) {
 
@@ -139,5 +146,6 @@ plot_function("linear", list(n = 200, p = 0.001))
 plot_function("quadratic", list(n = 200, p = 0.1))
 plot_function("exponential", list(n = 400, p = 0.001, x0 = 0.001, r = 0.099))
 plot_function("logistic", list(n = 10, p = 0.001, x0 = 0.001, M = 50, r =0.05))
+
 
 
